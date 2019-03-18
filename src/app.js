@@ -5,8 +5,9 @@ import AppRouter from './routers/AppRouter';
 import configureStore from './store/configureStore';
 import { addExpense } from './actions/expenses';
 import { setTextFilter } from './actions/filters';
-import getVisibleExpenses from './selectors/expenses'
+import getVisibleExpenses from './selectors/expenses';
 import { BrowserRouter, Route, Switch, NavLink, NavNavLink } from 'react-router-dom';
+import 'react-dates/lib/css/_datepicker.css';
 import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 
