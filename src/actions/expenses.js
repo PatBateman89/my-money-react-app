@@ -73,7 +73,7 @@ export const startSetExpenses = () => {
         });
       });
 
-      dispatch(setExpenses(expenses));
+      dispatch(startSetExpenses(expenses));
     });
   };
 };
