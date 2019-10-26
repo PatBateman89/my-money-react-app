@@ -7,8 +7,8 @@ __[Live Demo](https://my-money-react-app.herokuapp.com)__
 # Git Commands
 
 After cloning the project
-1. npm install
-2. npm run dev-server
+1. yarn install
+2. yarn run dev-server
 3. set up firebase account
 4. in env file
     FIREBASE_API_KEY= "your firebase info"
